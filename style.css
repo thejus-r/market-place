@@ -34,8 +34,8 @@ main {
 
 .glass {
   background: white;
-  min-height: 80vh;
-  width: 80%;
+  height: 926px;
+  width: 1540px;
   background: linear-gradient(
     to right bottom,
     rgba(255, 255, 255, 0.7),
@@ -102,6 +102,26 @@ main {
   color: white;
   padding: 1rem;
   position: relative;
+}
+
+.button {
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 2rem;
+  color: white;
+  padding: 1rem;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 60%;
+}
+
+.btn-text {
+  color: white;
+  text-align: center;
 }
 
 .pro img {
